@@ -23,3 +23,6 @@ class Dog():
 my_dog = Dog("willie", 6)
 
 print("My dog's name is " + my_dog.name.title() + ".")
+
+print(dir(Dog))
+print(dir(my_dog))
